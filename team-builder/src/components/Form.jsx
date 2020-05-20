@@ -14,7 +14,7 @@ const Form = props => {
     };
     const submitForm = e => {
         e.preventDefault();
-        props.addNewMember(setTeamMember);
+        props.addNewMember(teamMember);
         setTeamMember({ name: '', email: '', role: ''})
     };
 

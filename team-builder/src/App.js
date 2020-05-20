@@ -6,9 +6,9 @@ function App() {
   const [teamMembers, setTeamMembers] = useState([
     {
       id: 1,
-      name: 'name',
-      email: '@',
-      role: 'role'
+      name: 'Mary',
+      email: 'mary-waters@lambdastudents.com',
+      role: 'Future Full-Stack Developer'
     }
   ]);
   const addNewMember = member => {
